@@ -91,6 +91,14 @@ main {
     flex-direction: column;
 }
 
+.about {
+    padding: 10px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer Styles */
 footer {
     background-color: lightgray;
