@@ -12,7 +12,7 @@ html {
 
 /* Header Styles */
 header {
-    background-color: lightgray;
+    background-color: #efefef;
     width: 100%;
     height: 150px;
     display: flex;
@@ -53,6 +53,16 @@ ul li a{
     padding: 10px;
     margin: 0 10px;
     text-transform: uppercase;
+}
+
+ul li a:hover {
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+ul li:active {
+    transform: scale(0.98);
 }
 
 /* Main Styles */
