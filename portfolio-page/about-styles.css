@@ -1,0 +1,9 @@
+/* About Page Styles */
+
+.about {
+    padding: 10px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
