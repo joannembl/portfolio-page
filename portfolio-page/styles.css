@@ -10,10 +10,7 @@ html {
     padding: 0;
 }
 
-body {
-    height: 1500px;
-}
-
+/* Header Styles */
 header {
     background-color: lightgray;
     width: 100%;
@@ -58,12 +55,14 @@ ul li a{
     text-transform: uppercase;
 }
 
+/* Main Styles */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 300px;
+    padding-bottom: 150px;
 }
 
 .img-banner {
@@ -77,6 +76,31 @@ main {
 }
 
 .mission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Footer Styles */
+footer {
+    background-color: lightgray;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+footer p {
     display: flex;
     justify-content: center;
     flex-direction: column;
